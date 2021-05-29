@@ -443,9 +443,9 @@ import Headroom from 'headroom.js';
             icon: 'assessment'
         });
         links.push({
-            name: globalize.translate('DLNA'),
+            name: globalize.translate('HeaderSystemDlnaProfiles'),
             href: '#!/dlnasettings.html',
-            pageIds: ['dlnaSettingsPage', 'dlnaProfilesPage', 'dlnaProfilePage'],
+            pageIds: ['dlnaProfilesPage', 'dlnaProfilePage'],
             icon: 'input'
         });
         links.push({
